@@ -1,23 +1,22 @@
 ###################################################################################
-## Universidad de La Laguna						 								 ##
-## Escuela Superior de Ingeniería y Tecnología	 								 ##
-## Grado en Ingeniería Informática				 								 ##
-## Seguridad en Sistemas Informáticos			 								 ##
-## Fecha: 21/02/2016							 								 ##
-## Autor: Kevin Estévez Expósito (alu0100821390) 								 ##
-## 																				 ##
-## Práctica 2: Cifrado de Vigenere												 ##
+## Universidad de La Laguna							 ##
+## Escuela Superior de Ingeniería y Tecnología	 				 ##
+## Grado en Ingeniería Informática				 		 ##
+## Seguridad en Sistemas Informáticos			 			 ##
+## Fecha: 21/02/2016								 ##
+## Autor: Kevin Estévez Expósito (alu0100821390) 				 ##
+## 										 ##
+## Práctica 2: Cifrado de Vigenere						 ##
 ## Descripción: Cifrado y descifrado de mensajes mediante el cifrado Vigenere,	 ##
 ## empleando el abecedario español en mayúscula sin 'CH', 'LL', 'Ñ', 'RR' ni	 ##
-## espacios.	 																 ##
-##											 								 	 ##
-## Ejecución: py vigenere.py "'mensaje'" "'clave'"								 ##
+## espacios.	 								 ##
+##									 	 ##
+## Ejecución: py vigenere.py "'mensaje'" "'clave'"				 ##
 ## Ejemplo de ejecución: py vigenere.py "este mensaje se autodestruira" "mision" ##
 ###################################################################################
 
 
 import sys
-from operator import xor
 
 abecedario = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 mensaje = sys.argv[1].replace(' ', '').upper()	# Se guarda el mensaje pasado por parámetros, en mayúsculas y sin espacios #
