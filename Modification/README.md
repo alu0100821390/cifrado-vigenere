@@ -7,13 +7,13 @@ Cifrado y descifrado de mensajes mediante el cifrado de Vigenere, incluyendo car
 ## Ejecución
 
 ~~~
-    py vigenere.py "'mensaje'" "'clave'"
+    py vigenere_mod.py "'mensaje'" "'clave'"
 ~~~
 
 Ejemplo de ejecución:
 
 ~~~
-    py vigenere.py "este mensaje se autodestruira" "mision"
+    py vigenere_mod.py "este mensaje se autodestruira" "mision"
 ~~~
 
 ## Información personal
