@@ -3,7 +3,7 @@
 ## Escuela Superior de Ingeniería y Tecnología	 				 ##
 ## Grado en Ingeniería Informática				 		 ##
 ## Seguridad en Sistemas Informáticos			 			 ##
-## Fecha: 21/02/2016								 ##
+## Fecha: 21/02/2017								 ##
 ## Autor: Kevin Estévez Expósito (alu0100821390) 				 ##
 ## 										 ##
 ## Práctica 2: Cifrado de Vigenere						 ##
