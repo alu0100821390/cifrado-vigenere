@@ -1,10 +1,12 @@
-# Práctica 2: Cifrado de Vigenere
+# Seguridad en Sistemas Informáticos
 
-## Introducción
+## Práctica 2: Cifrado de Vigenere
+
+### Introducción
 
 Cifrado y descifrado de mensajes mediante el cifrado de Vigenere.
 
-## Ejecución
+### Ejecución
 
 ~~~
     py vigenere.py "'mensaje'" "'clave'"
@@ -16,7 +18,7 @@ Ejemplo de ejecución:
     py vigenere.py "este mensaje se autodestruira" "mision"
 ~~~
 
-## Información personal
+### Información personal
 
 **Autor:** [Kevin Estévez Expósito](https://alu0100821390.github.io/)
 
