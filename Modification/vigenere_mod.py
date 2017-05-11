@@ -20,9 +20,9 @@ import sys
 
 abecedario = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ*_?¿'
 mensaje = str(input("Introduzca el mensaje a cifrar: "))
-mensaje = mensaje.replace(' ', '').upper()	# Se guarda el mensaje pasado por parámetros, en mayúsculas y sin espacios #
+mensaje = mensaje.replace(' ', '').upper()	# Se guarda el mensaje en mayúsculas y sin espacios #
 clave_original = str(input("Introduzca la palabra clave: "))
-clave_original = clave_original.replace(' ', '').upper()	# Se guarda la clave pasada por parámetros, en mayúsculas y sin espacios #
+clave_original = clave_original.replace(' ', '').upper()	# Se guarda la clave en mayúsculas y sin espacios #
 clave = ''
 cifrado = ''
 descifrado = ''
