@@ -1,20 +1,20 @@
-##################################################################################
-## Universidad de La Laguna                                                     ##
-## Escuela Superior de Ingeniería y Tecnología                                  ##
-## Grado en Ingeniería Informática                                              ##
-## Seguridad en Sistemas Informáticos                                           ##
-## Fecha: 21/02/2017                                                            ##
-## Autor: Kevin Estévez Expósito (alu0100821390)                                ##
-##                                                                              ##
-## Práctica 2: Cifrado de Vigenere                                              ##
-## Descripción: Cifrado y descifrado de mensajes mediante el cifrado Vigenere,  ##
-##              empleando el abecedario español en mayúscula sin 'CH', 'LL',    ##
-##              'Ñ', 'RR' ni espacios, pero con '*', '_', '?' y '¿'.            ##
-##                                                                              ##
-## Ejecución: py vigenere_mod.py                                                ##
-## Ejemplo de mensaje: este mensaje se autodestruira                            ##
-## Ejemplo de palabra clave: mision                                             ##
-##################################################################################
+#################################################################################
+## Universidad de La Laguna                                                    ##
+## Escuela Superior de Ingeniería y Tecnología                                 ##
+## Grado en Ingeniería Informática                                             ##
+## Seguridad en Sistemas Informáticos                                          ##
+## Fecha: 21/02/2017                                                           ##
+## Autor: Kevin Estévez Expósito (alu0100821390)                               ##
+##                                                                             ##
+## Práctica 2: Cifrado de Vigenere                                             ##
+## Descripción: Cifrado y descifrado de mensajes mediante el cifrado Vigenere, ##
+##              empleando el abecedario español en mayúscula sin 'CH', 'LL',   ##
+##              'Ñ', 'RR' ni espacios, pero con '*', '_', '?' y '¿'.           ##
+##                                                                             ##
+## Ejecución: py vigenere_mod.py                                               ##
+## Ejemplo de mensaje: este mensaje se autodestruira                           ##
+## Ejemplo de palabra clave: mision                                            ##
+#################################################################################
 
 import sys
 
