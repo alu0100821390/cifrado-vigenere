@@ -9,13 +9,19 @@ Cifrado y descifrado de mensajes mediante el cifrado de Vigenere.
 ### Ejecución
 
 ~~~
-    py vigenere.py "'mensaje'" "'clave'"
+    py vigenere.py
 ~~~
 
-Ejemplo de ejecución:
+Ejemplo de mensaje:
 
 ~~~
-    py vigenere.py "este mensaje se autodestruira" "mision"
+    este mensaje se autodestruira
+~~~
+
+Ejemplo de palabra clave:
+
+~~~
+    mision
 ~~~
 
 ### Información personal

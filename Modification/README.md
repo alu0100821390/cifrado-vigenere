@@ -1,22 +1,30 @@
-# Práctica 2: Cifrado de Vigenere (modificación)
+# Seguridad en Sistemas Informáticos
 
-## Introducción
+## Práctica 2: Cifrado de Vigenere (modificación)
+
+### Introducción
 
 Cifrado y descifrado de mensajes mediante el cifrado de Vigenere, incluyendo caracteres especiales al abecedario.
 
-## Ejecución
+### Ejecución
 
 ~~~
-    py vigenere_mod.py "'mensaje'" "'clave'"
+    py vigenere_mod.py
 ~~~
 
-Ejemplo de ejecución:
+Ejemplo de mensaje:
 
 ~~~
-    py vigenere_mod.py "este mensaje se autodestruira" "mision"
+    este mensaje se autodestruira
 ~~~
 
-## Información personal
+Ejemplo de palabra clave:
+
+~~~
+    mision
+~~~
+
+### Información personal
 
 **Autor:** [Kevin Estévez Expósito](https://alu0100821390.github.io/)
 

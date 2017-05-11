@@ -1,26 +1,28 @@
-###################################################################################
-## Universidad de La Laguna							 ##
-## Escuela Superior de Ingeniería y Tecnología	 				 ##
-## Grado en Ingeniería Informática				 		 ##
-## Seguridad en Sistemas Informáticos			 			 ##
-## Fecha: 21/02/2017								 ##
-## Autor: Kevin Estévez Expósito (alu0100821390) 				 ##
-## 										 ##
-## Práctica 2: Cifrado de Vigenere						 ##
-## Descripción: Cifrado y descifrado de mensajes mediante el cifrado Vigenere,	 ##
-## empleando el abecedario español en mayúscula sin 'CH', 'LL', 'Ñ', 'RR' ni	 ##
-## espacios.	 								 ##
-##									 	 ##
-## Ejecución: py vigenere.py "'mensaje'" "'clave'"				 ##
-## Ejemplo de ejecución: py vigenere.py "este mensaje se autodestruira" "mision" ##
-###################################################################################
-
+##################################################################################
+## Universidad de La Laguna                                                     ##
+## Escuela Superior de Ingeniería y Tecnología                                  ##
+## Grado en Ingeniería Informática                                              ##
+## Seguridad en Sistemas Informáticos                                           ##
+## Fecha: 21/02/2017                                                            ##
+## Autor: Kevin Estévez Expósito (alu0100821390)                                ##
+##                                                                              ##
+## Práctica 2: Cifrado de Vigenere                                              ##
+## Descripción: Cifrado y descifrado de mensajes mediante el cifrado Vigenere,  ##
+##              empleando el abecedario español en mayúscula sin 'CH', 'LL',    ##
+##              'Ñ', 'RR' ni espacios.                                          ##
+##                                                                              ##
+## Ejecución: py vigenere.py                                                    ##
+## Ejemplo de mensaje: este mensaje se autodestruira                            ##
+## Ejemplo de palabra clave: mision                                             ##
+##################################################################################
 
 import sys
 
 abecedario = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
-mensaje = sys.argv[1].replace(' ', '').upper()	# Se guarda el mensaje pasado por parámetros, en mayúsculas y sin espacios #
-clave_original = sys.argv[2].replace(' ', '').upper()	# Se guarda la clave pasada por parámetros, en mayúsculas y sin espacios #
+mensaje = str(input("Introduzca el mensaje a cifrar: "))
+mensaje = mensaje.replace(' ', '').upper()	# Se guarda el mensaje pasado por parámetros, en mayúsculas y sin espacios #
+clave_original = str(input("Introduzca la palabra clave: "))
+clave_original = clave_original.replace(' ', '').upper()	# Se guarda la clave pasada por parámetros, en mayúsculas y sin espacios #
 clave = ''
 cifrado = ''
 descifrado = ''
